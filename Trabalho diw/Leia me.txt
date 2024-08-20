@@ -1,0 +1,9 @@
+Olá para quem está me avaliando.
+
+Deixei este bloco de notas apenas para instruir você a extrair o arquivo zip e depois abrir a pasta utilizando o VisualStudioCode
+se você tiver o LiveServer vai facilitar bastante caso não, abra o index direto na pasta e avalie apartir dessa página (no meu código são apenas dois htmls 
+ e o terceiro é um popup para dar zoom nos items das fotos).
+
+OBS: a pasta imagens nn possui todas as imagens utilizados as outras 64 imagens estão no JSONSERVER.
+
+                                                                                          

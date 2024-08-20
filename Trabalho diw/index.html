@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Férias</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" defer src="script.js"></script>
+
+  <!--MAPBOX-->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
+  <!--LINK BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <!--Cabeçalho-->
+    <header id="cabecalho">
+      <div class="texto-cabecalho">
+        <ul><a href="index.html" class="logotipo"><img src="imagens/logotipo.png"
+              style="width: 30px;"></a></ul>
+        <li><a onclick="fundo()">Sobre mim</a></li>
+        <li><a onclick="meio()">Albuns</a></li>
+        <li><a onclick="subir()">Mapa</a></li>
+      </div>
+    </header>
+    <!--Destaque-->
+    <main id="conteudo">
+      <h4 class="destaqueh4">Destaque</h4>
+      
+      <div id="destaque">
+
+
+      </div>
+      <!--Mapa-->
+      <h4 class="mapah4">Mapa</h4>
+      <article class="mapa">
+        <!--mapa aqui-->
+        <div id="map"></div>
+      </article>
+      <!--Lista de Álbuns-->
+      <article class="lista-albuns">
+        <h4>Lista de Álbuns</h4>
+        <div id="albuns">
+          
+          <!--ESTÁ NO SCRIPT-->
+     
+        </div>
+      </article>
+    </main>
+    <!--Créditos-->
+    <footer id="footer">
+      <div class="sobre">
+        <h5>Sobre</h5>
+        <p>Olá esse é meu trabalho prático 2 da disciplina de Desenvolvimento de interface Web, estou no meu primeiro périodo como um cientista da computação, espere que goste do site S2. </p>
+      </div>
+      <div class="autoria">
+        <h5>Autoria</h5>
+        <img src="imagens/Minha foto.png" alt="Minha foto">
+        <h6 class="aluno">Aluno: Arthur Souza Carvalho</h6>
+        <h6 class="curso">Curso: Ciência da computação</h6>
+        <h6 class="turma">Turma: Manhã</h6>
+
+        <h5>Redes Sociais:</h5>
+        <a href="#"><img src="imagens/icone-insta.png" href=""></a>
+        <a href="#"><img src="imagens/icone-whats.png" href=""></a>
+        <a href="#"><img src="" href=""></a>
+      </div>
+    </footer>
+  </div>
+
+
+
+</body>
+</html>

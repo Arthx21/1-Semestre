@@ -1,0 +1,357 @@
+html {
+padding: 0;
+margin: 0;  
+}
+
+.container {
+    width: 100%;
+    max-width: 100%; /* Certifica-se de que a largura não ultrapasse 100% */
+    margin: 0 auto; /* Centraliza o conteúdo na página, se desejar */
+    background-color: rgb(95, 141, 122); /* Adicione uma cor de fundo para melhor visualização */
+    padding: 5px; /* Adicione algum espaço ao redor do conteúdo, se desejar */
+}
+
+#cabecalho {  
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 63, 24);
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 9px;
+    border-radius: 20px;
+}
+.texto-cabecalho ul {
+    display: inline;
+    background-color: rgb(63, 143, 47);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto-cabecalho li {
+    float: right;
+    margin-right: 1.7vw;
+    color: white;
+    cursor: pointer;
+}
+
+.texto-cabecalho a {
+    padding-top: 1.7vh;
+    font-weight: 600;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+#conteudo {
+    display: inline-block;
+    width: 100%;
+    
+}
+
+#destaque {
+    background-color: rgb(122, 167, 152);
+     width: 50%;    
+     margin: 0 auto;
+     height: 507px;
+    margin-bottom: 9px;
+    object-fit: cover;
+    padding-top: 5px;
+    padding: 10px;
+    border: solid;
+}
+
+#carouselExampleIndicators {
+    object-fit: cover;
+    height: 480px;
+
+}
+
+
+.carousel-inner {
+    
+    height: 480px;
+}
+
+.destaqueh4 {
+    border-bottom: solid 2px black;
+    padding-bottom: 5px;
+    padding: 5px;
+    font-weight: 750;
+}
+
+.mapa {
+    text-align: center;
+    background-color: rgb(122, 167, 152);
+    margin-bottom: 9px;    
+    border: solid black;
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+}
+
+.mapah4 {
+    text-align: start;
+    border-bottom: solid 2px black;
+    padding-bottom: 5px;    
+    padding: 5px;
+    font-weight: 750;
+}
+
+.lista-albuns {
+    margin-bottom: 9px;
+}
+
+.lista-albuns h4 {
+   border-bottom: solid black 2px;
+   padding: 5px;
+   font-weight: 750;
+}
+
+#albuns {
+    background-color: rgb(122, 167, 152);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: solid;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: stretch;
+}
+
+.album {
+    align-self: start;
+    object-fit: cover;
+    width: 24%;
+    height: 25%;
+    background-color: rgb(136, 199, 214);
+    padding: 15px;
+    margin: 4px;
+    border: solid black 2px;
+    flex-direction: row;
+}
+
+.album img {
+    height: 150px;
+    width: 100%;
+    border: solid 2px black;
+}
+
+.imagens {
+    width: 100%;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.album p {
+    padding: 4px;
+    font-weight: 450;
+}
+
+.album h6 {
+    border-bottom: solid black 1px;
+    margin-bottom: 0px;
+}
+
+.visualizar {
+    padding: 7px;
+    text-decoration: none;
+    background-color: rgb(72, 150, 126);
+    border-radius: 10px;
+    border: solid 1px;
+    font-weight: 500;
+    color: black;
+    margin-left: 0.5vw;
+    object-fit: cover;
+}
+
+.visualizar:hover {
+    background-color: white;
+}
+
+#footer {
+    width: 100%;
+    background-color: rgb(144, 231, 156);
+    padding: 5px;
+    display: flex;   
+    flex-direction: row;
+}
+
+.sobre {
+   width: 90%; 
+   padding: 5px;
+   background-color: rgb(220, 245, 225);
+}
+
+.sobre h5 {
+   padding: 5px;
+   color: blue;
+}
+
+.autoria {
+   border-left: solid 5px; 
+   border-left-color:rgb(144, 231, 156);;
+   display: inline-block;
+   width: 40%;
+   padding: 5px;
+   background-color: rgb(220, 245, 225);
+}
+
+.autoria img {
+    width: 60px;
+    float: left;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+.autoria h5 {
+    padding: 5px;
+    color: blue;
+}
+
+
+
+
+
+/*========================================================================                   
+{                        Detalhesdoalbum.html                            }
+========================================================================*/
+
+.frasexpto {
+    border-bottom: solid 2px black;
+    padding-bottom: 5px;
+    padding: 5px;
+    font-weight: 750;
+    margin-top: 20px;
+}
+
+.albumxpto {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;   
+    justify-content:space-between;
+    
+} 
+    
+
+.imagemAlbum {
+    float: left;
+    width: 35%;
+    margin-left: 0.5vw;
+    margin-top: 0.3vw;
+    margin-bottom: 0.3vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+.textoAlbum {
+    float: right;
+    width: 60%;
+    padding: 10px;
+    margin-left: 2vw;
+    font-size: 17px;
+}
+
+.textoAlbum h6 {
+    color: rgb(0, 255, 191);
+    font-size: larger;   
+}
+
+.textoAlbum p {
+    font-weight: 500;
+}
+
+.dataderegistro {
+    float: right;
+    margin-top: 0.9vw;
+    width: 30%;
+}
+
+.localizacao {
+    float: left;
+    margin-left: 20px;
+    margin-top: 0.9vw;
+    
+}
+
+#botaodestaque {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+
+
+#fotosAlbum {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    object-fit: cover;
+    gap: 20px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20px;
+    background-color: rgb(64, 116, 103);
+    padding: 30px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: rgb(128, 187, 128);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: 700;
+}
+
+.card img {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    
+}
+
+
+
+
+/*===============================PopUp=============================*/
+
+#image-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#popup-content {
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+#popup-image {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.card {
+    cursor: pointer;
+}
