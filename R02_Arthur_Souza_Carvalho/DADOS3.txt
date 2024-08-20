@@ -1,0 +1,4 @@
+3
+Arroz 1 12.50
+Feijao 2 14.00
+Macarrao 3 9.75
